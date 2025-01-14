@@ -1,0 +1,81 @@
+[debug] > Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/LENOVO/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveSourceClassifiers");apply -cp "C:/Users/LENOVO/AppData/Roaming/JetBrains/IdeaIC2024.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2024.3.0/sbt-structure-extractor-2024.3.0.jar" "org.jetbrains.sbt.CreateTasks" "sbt.jetbrains.LogDownloadArtifacts";preferScala2;*/*:dumpStructure, Some(064a51e6-42e1-4d23-9ebf-b2ac859132ee), Some(CommandSource(console0)))
+[debug] > Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/LENOVO/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveSourceClassifiers"), None, Some(CommandSource(console0)))
+[info] Defining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.
+[info] The new values will be used by cleanKeepGlobs
+[info] 	Run `last` for details.
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 	Global / sbtStructureOutputFile
+[debug] 	history
+[debug] 	shellPrompt
+[debug] 
+[debug] The new values will be used by 
+[debug] 	cleanKeepGlobs
+[info] Reapplying settings...
+[info] set current project to lakehouse (in build file:/D:/sparkProjects/AirportLakehouse/lakehouse/)
+[debug] > Exec(apply -cp "C:/Users/LENOVO/AppData/Roaming/JetBrains/IdeaIC2024.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2024.3.0/sbt-structure-extractor-2024.3.0.jar" "org.jetbrains.sbt.CreateTasks" "sbt.jetbrains.LogDownloadArtifacts", None, Some(CommandSource(console0)))
+[info] Applying State transformations org.jetbrains.sbt.CreateTasks, sbt.jetbrains.LogDownloadArtifacts from C:/Users/LENOVO/AppData/Roaming/JetBrains/IdeaIC2024.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2024.3.0/sbt-structure-extractor-2024.3.0.jar
+[info] Reapplying settings...
+[info] set current project to lakehouse (in build file:/D:/sparkProjects/AirportLakehouse/lakehouse/)
+[info] Reapplying settings...
+[info] set current project to lakehouse (in build file:/D:/sparkProjects/AirportLakehouse/lakehouse/)
+[debug] > Exec(preferScala2, None, Some(CommandSource(console0)))
+[debug] > Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Global / dumpStructure
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructure
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.6/hadoop-aws-3.3.6.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.6/hadoop-aws-3.3.6.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/3.3.6/hadoop-project-3.3.6.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/3.3.6/hadoop-project-3.3.6.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/3.3.6/hadoop-project-dist-3.3.6.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/3.3.6/hadoop-project-dist-3.3.6.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/3.3.6/hadoop-main-3.3.6.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/3.3.6/hadoop-main-3.3.6.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.pom
+[info] downloading https://repo1.maven.org/maven2/com/github/pjfanning/jersey-json/1.20/jersey-json-1.20.pom
+[info] downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.367/aws-java-sdk-bundle-1.12.367.pom
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.3.6/hadoop-auth-3.3.6.pom
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.3.6/hadoop-auth-3.3.6.pom
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.pom
+[info] downloaded https://repo1.maven.org/maven2/com/github/pjfanning/jersey-json/1.20/jersey-json-1.20.pom
+[info] downloaded https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.367/aws-java-sdk-bundle-1.12.367.pom
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.pom
+[info] downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.12.367/aws-java-sdk-pom-1.12.367.pom
+[info] downloaded https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.12.367/aws-java-sdk-pom-1.12.367.pom
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.4.51.v20230217/jetty-project-9.4.51.v20230217.pom
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.4.51.v20230217/jetty-project-9.4.51.v20230217.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/53/commons-parent-53.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-parent/53/commons-parent-53.pom
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.pom
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.pom
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.pom
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.pom
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.100.Final/netty-transport-native-epoll-4.1.100.Final-linux-x86_64.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.jar
+[info] downloaded https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.100.Final/netty-transport-native-epoll-4.1.100.Final-linux-x86_64.jar
+[info] downloading https://repo1.maven.org/maven2/com/github/pjfanning/jersey-json/1.20/jersey-json-1.20.jar
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.jar
+[info] downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.367/aws-java-sdk-bundle-1.12.367.jar
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.6/hadoop-aws-3.3.6.jar
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.100.Final/netty-transport-native-epoll-4.1.100.Final-linux-aarch_64.jar
+[info] downloaded https://repo1.maven.org/maven2/com/github/pjfanning/jersey-json/1.20/jersey-json-1.20.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.3.6/hadoop-auth-3.3.6.jar
+[info] downloaded https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.100.Final/netty-transport-native-epoll-4.1.100.Final-linux-aarch_64.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.6/hadoop-aws-3.3.6.jar
+[info] downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.3.6/hadoop-auth-3.3.6.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.jar

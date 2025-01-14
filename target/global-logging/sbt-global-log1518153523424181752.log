@@ -1,0 +1,54 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\LENOVO\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\LENOVO\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.3 (Eclipse Adoptium Java 11.0.25)
+[debug] Load.defaultLoad until apply took 119.4764ms
+[debug]           Load.loadUnit: plugins took 128.927101ms
+[debug]           Load.loadUnit: defsScala took 0.3253ms
+[debug] [Loading] Scanning directory D:\sparkProjects\AirportLakehouse\lakehouse\project
+[debug]             Load.loadUnit: mkEval took 5.3968ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\sparkProjects\AirportLakehouse\lakehouse\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.7639 ms
+[info] loading settings for project lakehouse-build from idea.sbt ...
+[debug]               Load.resolveProject(lakehouse-build) took 44.954699ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id lakehouse-build, base: D:\sparkProjects\AirportLakehouse\lakehouse\project, plugins: List(<none>))) took 99.2269ms
+[debug] [Loading] Done in D:\sparkProjects\AirportLakehouse\lakehouse\project, returning: (lakehouse-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 399.6589ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.165899ms
+[debug]         Load.loadUnit(file:/D:/sparkProjects/AirportLakehouse/lakehouse/project/, ...) took 538.077699ms
+[debug]       Load.apply: load took 678.285ms
+[debug]       Load.apply: resolveProjects took 5.928ms
+[debug]       Load.apply: finalTransforms took 91.9061ms
+[debug]       Load.apply: config.delegates took 8.306799ms
+[debug]       Load.apply: Def.make(settings)... took 670.0704ms
+[debug]       Load.apply: structureIndex took 139.5064ms
+[debug]       Load.apply: mkStreams took 5.357499ms
+[info] loading project definition from D:\sparkProjects\AirportLakehouse\lakehouse\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4161.877601ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory D:\sparkProjects\AirportLakehouse\lakehouse
+[debug]       Load.loadUnit: mkEval took 0.3444ms
